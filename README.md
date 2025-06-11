@@ -1,3 +1,5 @@
+SENTIMENT ANALYSIS
+
 🎯 Sentiment Pulse
 
 **Sentiment Pulse** is a lightweight web app that analyzes customer reviews and detects sentiment as **Positive**, **Negative**, or **Neutral** — complete with mood-matching emojis and smooth UI animations.
