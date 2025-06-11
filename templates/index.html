@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sentiment Pulse</title>
+  <script defer src="/static/app.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+  <div class="bg-white p-8 rounded-xl shadow-xl max-w-md w-full">
+    <h1 class="text-2xl font-bold mb-4 text-center">Customer Sentiment Analyzer</h1>
+    <textarea id="review" class="w-full p-3 border rounded-md mb-4" rows="4" placeholder="Paste a customer review..."></textarea>
+    <button id="analyzeBtn" class="w-full bg-indigo-600 text-white py-2 rounded-md hover:bg-indigo-700 transition duration-200">Analyze</button>
+    
+    <!-- Result container with animated feedback -->
+    <div id="result" class="mt-4 text-center text-lg font-semibold transition-transform transform scale-100 duration-300"></div>
+  </div>
+</body>
+</html>
